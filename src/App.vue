@@ -1,4 +1,4 @@
-<script setup>
+<script>
 import HelloWorld from './components/HelloWorld.vue'
 import {
     MDBFooter,
@@ -88,127 +88,75 @@ import {
       </div>
     </div>
 
-    <MDBFooter :text="['center', 'lg-start', 'muted']">
+    <div :text="['center', 'lg-start', 'muted']">
     <!-- Section: Social media -->
-    <section class="
-        d-flex
-        justify-content-center justify-content-lg-between
-        p-4
-        border-bottom
-      ">
-      <!-- Left -->
-      <div class="me-5 d-none d-lg-block">
-        <span>Get connected with us on social networks:</span>
+    <div class="flex flex-col">
+      <div class="flex self-center w-4/5">
+        <div class="flex flex-col w-6/12">
+          <div class="w-5/6 text-purple-800 font-bold text-2xl pb-2">Get HUMAN news and updates</div>
+          <div class="w-full">
+            <input type="text" class="border-purple-800 border-2 rounded-md w-4/6 p-1" />
+            <button class="bg-purple-800 border-2 rounded-md p-2 px-4 text-white">Subscribe</button>
+          </div>
+          <div class="text-purple-800">By subscribing you agree to our Privacy Policy</div>
+        </div>
+        <div class="w-3/12"></div>
+        <div class="w-5/12 self-center">
+          <i class="fas fa-dove text-purple-800 m-3 fa-2x"></i>
+          <i class="fab fa-twitter text-purple-800 m-3 fa-2x"></i>
+          <i class="fab fa-github-square text-purple-800 m-3 fa-2x"></i>
+          <i class="fab fa-linkedin-in text-purple-800 m-3 fa-2x"></i>
+          <i class="fab fa-youtube text-purple-800 m-3 fa-2x"></i>
+        </div>
       </div>
-      <!-- Left -->
-      <!-- Right -->
-      <div>
-        <a href="" class="me-4 text-reset">
-          <MDBIcon iconStyle="fab" icon="facebook-f"></MDBIcon>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <MDBIcon iconStyle="fab" icon="twitter"></MDBIcon>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <MDBIcon iconStyle="fab" icon="google"></MDBIcon>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <MDBIcon iconStyle="fab" icon="instagram"></MDBIcon>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <MDBIcon iconStyle="fab" icon="linkedin"></MDBIcon>
-        </a>
-        <a href="" class="me-4 text-reset">
-          <MDBIcon iconStyle="fab" icon="github"></MDBIcon>
-        </a>
-      </div>
-      <!-- Right -->
-    </section>
+    </div>
     <!-- Section: Social media -->
     <!-- Section: Links  -->
-    <section class="">
-      <MDBContainer class="text-center text-md-start mt-5">
-        <!-- Grid row -->
-        <MDBRow class="mt-3">
-          <!-- Grid column -->
-          <MDBCol md="3" lg="4" xl="3" class="mx-auto mb-4">
-            <!-- Content -->
-            <h6 class="text-uppercase fw-bold mb-4">
-              <i class="fas fa-gem me-3"></i>Company name
-            </h6>
-            <p>
-              Here you can use rows and columns to organize your footer
-              content. Lorem ipsum dolor sit amet, consectetur
-              adipisicing elit.
-            </p>
-          </MDBCol>
-          <!-- Grid column -->
-          <!-- Grid column -->
-          <MDBCol md="2" lg="2" xl="2" class="mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Products</h6>
-            <p>
-              <a href="#!" class="text-reset">Angular</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">React</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Vue</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Laravel</a>
-            </p>
-          </MDBCol>
-          <!-- Grid column -->
-          <!-- Grid column -->
-          <MDBCol md="3" lg="2" xl="2" class="mx-auto mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
-            <p>
-              <a href="#!" class="text-reset">Pricing</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Settings</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Orders</a>
-            </p>
-            <p>
-              <a href="#!" class="text-reset">Help</a>
-            </p>
-          </MDBCol>
-          <!-- Grid column -->
-          <!-- Grid column -->
-          <MDBCol md="4" lg="3" xl="3" class="mx-auto mb-md-0 mb-4">
-            <!-- Links -->
-            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-            <p>
-              <i class="fas fa-home me-3"></i> New York, NY 10012, US
-            </p>
-            <p>
-              <i class="fas fa-envelope me-3"></i>
-              info@example.com
-            </p>
-            <p>
-              <MDBIcon icon="phone" class="me-3" /> + 01 234 567 88
-            </p>
-            <p>
-              <MDBIcon icon="print" class="me-3" /> + 01 234 567 89
-            </p>
-          </MDBCol>
-          <!-- Grid column -->
-        </MDBRow>
-        <!-- Grid row -->
-      </MDBContainer>
-    </section>
+    <div class="flex pt-8">
+      <div class="w-1/6 self-center pl-16">
+        <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+        <div class="text-reset">HUMAN App</div>
+        <div class="text-reset">Proof of HUMANity</div>
+        <div class="text-reset">IMOO</div>
+      </div>
+      <div class="w-1/6 self-center pl-16">
+        <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+        <div class="text-reset">HUMAN App</div>
+        <div class="text-reset">Proof of HUMANity</div>
+        <div class="text-reset">IMOO</div>
+      </div>
+      <div class="w-1/6 self-center pl-16">
+        <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+        <div class="text-reset">HUMAN App</div>
+        <div class="text-reset">Proof of HUMANity</div>
+        <div class="text-reset">IMOO</div>
+      </div>
+      <div class="w-1/6 self-center pl-16">
+        <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+        <div class="text-reset">HUMAN App</div>
+        <div class="text-reset">Proof of HUMANity</div>
+        <div class="text-reset">IMOO</div>
+      </div>
+      <div class="w-1/6 self-center pl-16">
+        <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+        <div class="text-reset">HUMAN App</div>
+        <div class="text-reset">Proof of HUMANity</div>
+        <div class="text-reset">IMOO</div>
+      </div>
+      <div class="w-1/6 self-center pl-16">
+        <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+        <div class="text-reset">HUMAN App</div>
+        <div class="text-reset">Proof of HUMANity</div>
+        <div class="text-reset">IMOO</div>
+      </div>
+    </div>
     <!-- Section: Links  -->
     <!-- Copyright -->
     <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05)">
       © 2021 Copyright:
       <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
     </div>
-  </MDBFooter>
+  </div>
 </template>
 
 <style scoped>
