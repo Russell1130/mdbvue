@@ -1,4 +1,4 @@
-<script>
+<script setup>
 import HelloWorld from './components/HelloWorld.vue'
 import {
     MDBFooter,
@@ -88,7 +88,7 @@ import {
       </div>
     </div>
 
-    <div :text="['center', 'lg-start', 'muted']">
+    <MDBFooter :text="['center', 'lg-start', 'muted']">
     <!-- Section: Social media -->
     <div class="flex flex-col">
       <div class="flex self-center w-4/5">
@@ -112,43 +112,13 @@ import {
     </div>
     <!-- Section: Social media -->
     <!-- Section: Links  -->
-    <div class="flex pt-8">
-      <div class="w-1/6 self-center pl-16">
-        <h6 class="text-uppercase fw-bold mb-4">Products</h6>
-        <div class="text-reset">HUMAN App</div>
-        <div class="text-reset">Proof of HUMANity</div>
-        <div class="text-reset">IMOO</div>
-      </div>
-      <div class="w-1/6 self-center pl-16">
-        <h6 class="text-uppercase fw-bold mb-4">Products</h6>
-        <div class="text-reset">HUMAN App</div>
-        <div class="text-reset">Proof of HUMANity</div>
-        <div class="text-reset">IMOO</div>
-      </div>
-      <div class="w-1/6 self-center pl-16">
-        <h6 class="text-uppercase fw-bold mb-4">Products</h6>
-        <div class="text-reset">HUMAN App</div>
-        <div class="text-reset">Proof of HUMANity</div>
-        <div class="text-reset">IMOO</div>
-      </div>
-      <div class="w-1/6 self-center pl-16">
-        <h6 class="text-uppercase fw-bold mb-4">Products</h6>
-        <div class="text-reset">HUMAN App</div>
-        <div class="text-reset">Proof of HUMANity</div>
-        <div class="text-reset">IMOO</div>
-      </div>
-      <div class="w-1/6 self-center pl-16">
-        <h6 class="text-uppercase fw-bold mb-4">Products</h6>
-        <div class="text-reset">HUMAN App</div>
-        <div class="text-reset">Proof of HUMANity</div>
-        <div class="text-reset">IMOO</div>
-      </div>
-      <div class="w-1/6 self-center pl-16">
-        <h6 class="text-uppercase fw-bold mb-4">Products</h6>
-        <div class="text-reset">HUMAN App</div>
-        <div class="text-reset">Proof of HUMANity</div>
-        <div class="text-reset">IMOO</div>
-      </div>
+    <div class="flex">
+      <div class="w-3/4 mt-5 self-center">
+            <h6 class="text-uppercase fw-bold mb-4">Products</h6>
+            <div class="text-reset">HUMAN App</div>
+            <div class="text-reset">Proof of HUMANity</div>
+            <div class="text-reset">IMOO</div>
+          </div>
     </div>
     <!-- Section: Links  -->
     <!-- Copyright -->
@@ -156,7 +126,7 @@ import {
       © 2021 Copyright:
       <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
     </div>
-  </div>
+  </MDBFooter>
 </template>
 
 <style scoped>
