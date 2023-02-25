@@ -11,8 +11,10 @@
   "dependencies": {
     "@headlessui/vue": "^1.7.11",
     "@heroicons/vue": "^2.0.16",
+    "chart.js": "^4.2.1",
     "mdb-vue-ui-kit": "^3.2.0",
-    "vue": "^3.2.45"
+    "vue": "^3.2.45",
+    "vue-chartjs": "^5.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
