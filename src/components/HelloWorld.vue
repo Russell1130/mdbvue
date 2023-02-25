@@ -37,11 +37,11 @@
         <img src="right.png"/>
       </div>
     </div>
-    <div class="flex flex-row px-20">
-      <div class="w-2/4 self-center pt-16 pb-8">
+    <div class="flex flex-col pr-20 md:flex-row md:px-20">
+      <div class="w-full self-center pt-16 md:w-2/4">
         <img src="hmt.png" class="py-5"/>
       </div>
-      <div class="w-2/5 self-center text-3xl text-purple-800 pt-28">
+      <div class="w-full self-center text-3xl pl-10 text-purple-800 md:w-2/5">
         <nobr class=" text-purple-600">HMT</nobr> funds the processing of digitized work, and rewards workers for their contributions.
       </div>
     </div>
@@ -64,17 +64,12 @@
       <div class="flex flex-col self-center w-9/12 p-10">
         <div class="text-purple-800 text-4xl">Token Allocation</div>
         <Doughnut class="w-1/2 self-center" />
-        <Linechart class="h-9 "/>
-      </div>
-    </div>
-    <div class="flex flex-col">
-      <div class="self-center w-9/12 p-10">
-        <img src="supply.png"/>
+        <Linechart class="w-1/2 self-center" />
       </div>
     </div>
     <div class="flex flex-col bg-violet-50 rounded-3xl m-20 pb-12">
       <div class="self-center p-10 text-purple-800 text-4xl">How do i get HMT?</div>
-      <div class="self-center flex flex-row h-12">
+      <div class="self-center flex flex-col h-12 md:flex-row relative">
         <img src="complete.png" class="px-5 py-10 bg-white w-1/6 m-auto"/>
         <img src="grants.png" class="px-5 py-10 bg-white w-1/6 m-auto"/>
         <img src="ambassador.png" class="px-5 py-10 bg-white w-1/6 m-auto"/>

@@ -9,8 +9,6 @@
     LinearScale,
     PointElement,
     LineElement,
-    Title,
-    Tooltip,
     Filler,
     Legend
   } from 'chart.js'
@@ -23,8 +21,6 @@
     PointElement,
     LineElement,
     Filler,
-    Title,
-    Tooltip,
     Legend
   )
   
