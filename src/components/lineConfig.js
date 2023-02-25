@@ -60,8 +60,8 @@ export const data = {
   export const options = {
     responsive: false,
     maintainAspectRatio: true,
-    legend: {
-        display:false
+    plugins: {
+      legend:false
     }
   }
   

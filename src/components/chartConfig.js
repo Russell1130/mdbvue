@@ -9,6 +9,12 @@ export const data = {
   
   export const options = {
     responsive: false,
-    maintainAspectRatio: true
+    maintainAspectRatio: true ,
+    legend: {
+      display:false,
+      labels: {
+        display:false
+      }
+    }
   }
   

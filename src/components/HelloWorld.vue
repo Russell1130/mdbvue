@@ -61,51 +61,61 @@
       </div>
     </div>
     <div class="flex flex-col">
-      <div class="flex flex-col self-center w-9/12 p-10">
+      <div class="flex flex-col self-center w-full p-10">
         <div class="text-purple-800 text-4xl">Token Allocation</div>
         <Doughnut class="w-1/2 self-center" />
-        <Linechart class="w-1/2 self-center" />
+      </div>
+    </div>
+    <div class="flex flex-col">
+      <div class="flex flex-col self-center w-full p-10">
+        <div class="text-purple-800 text-4xl">Supply Over Time</div>
+        <Linechart class="w-2/3 self-center" />
       </div>
     </div>
     <div class="flex flex-col bg-violet-50 rounded-3xl m-20 pb-12">
-      <div class="self-center p-10 text-purple-800 text-4xl">How do i get HMT?</div>
-      <div class="self-center flex flex-col h-12 md:flex-row relative">
-        <img src="complete.png" class="px-5 py-10 bg-white w-1/6 m-auto"/>
-        <img src="grants.png" class="px-5 py-10 bg-white w-1/6 m-auto"/>
-        <img src="ambassador.png" class="px-5 py-10 bg-white w-1/6 m-auto"/>
-        <img src="refer.png" class="px-5 py-10 bg-white w-1/6 m-auto"/>
-        <img src="validator.png" class="px-5 py-10 bg-white w-1/6 m-auto"/>
+      <div class="self-center p-10 text-purple-800 text-4xl " >How do i get HMT?</div>
+      <div class="self-center flex flex-col md:flex-row ">
+        <img src="complete.png" class=" bg-white w-full md:w-1/6 m-auto"/>
+        <img src="grants.png" class=" bg-white w-full md:w-1/6 m-auto"/>
+        <img src="ambassador.png" class=" bg-white w-full md:w-1/6 m-auto"/>
+        <img src="refer.png" class=" bg-white w-full md:w-1/6 m-auto"/>
+        <img src="validator.png" class=" bg-white w-full md:w-1/6 m-auto"/>
       </div>
     </div>
     <br/>
-    <div class="flex flex-col bg-violet-50 rounded-3xl m-20 h-72 pb-6">
+    <div class="flex flex-col bg-violet-50 rounded-3xl m-20 pb-6">
       <div class="self-center p-10 text-purple-800 text-4xl">Utility of the HUMAN Token</div>
-      <div class="self-center flex flex-row absolute m-20 h-1/5">
-        <img src="job.png" class="w-1/3 m-auto"/>
-        <img src="worker.png" class="w-1/3 m-auto"/>
-        <img src="validators.png" class="w-1/3 m-auto"/>
+      <div class="self-center flex flex-col md:flex-row">
+        <img src="job.png" class="md:w-1/3 w-full"/>
+        <img src="worker.png" class="md:w-1/3 w-full"/>
+        <img src="validators.png" class="md:w-1/3 w-full"/>
       </div>
-    </div><br/><br/><br/><br/><br/><br/><br/>
-    <div class="flex flex-col h-72">
-      <div class="px-40 text-purple-800 text-4xl">Disclaimer</div>
-      <div class="px-40 pt-10 text-purple-800 text-base">The HUMAN Protocol Foundation makes no representation, warranty, or undertaking, express or implied, as to the accuracy, reliability, completeness, or reasonableness of the Information. Any assumptions, opinions, and estimates expressed in the information on this page constitutes the HUMAN Protocol Foundation’s judgment as of 18/11/21 and are subject to change without notice. The HUMAN Protocol Foundation does not accept any liability for any direct, consequential or other loss arising from reliance on the contents of the information in this graphic.</div>
     </div>
     <div class="flex flex-col">
+      <div class="self-center text-purple-800 text-4xl">Disclaimer</div>
+      <div class="self-center px-5 text-purple-800 text-base">The HUMAN Protocol Foundation makes no representation, warranty, or undertaking, express or implied, as to the accuracy, reliability, completeness, or reasonableness of the Information. Any assumptions, opinions, and estimates expressed in the information on this page constitutes the HUMAN Protocol Foundation’s judgment as of 18/11/21 and are subject to change without notice. The HUMAN Protocol Foundation does not accept any liability for any direct, consequential or other loss arising from reliance on the contents of the information in this graphic.</div>
+    </div>
+    <div class="flex flex-col pt-12">
       <div class="flex self-center w-4/5">
         <div class="w-5/6 text-purple-800 font-bold text-2xl">Recent Entries</div>
-        <button class="border-purple-800 border-2 p-2 rounded-lg w-1/12 mr-0">Go to blog</button>
+        <button class="border-purple-800 border-2 p-2 rounded-lg w-1/6 mr-0">Go to blog</button>
       </div>
     </div>
-    <div class="flex flex-col">
-      <div class="self-center w-9/12 p-10">
+    <div class="flex flex-col w-full pb-16">
+      <div class="w-1/2 self-center">
         <img src="recent.png"/>
+        <div class="flex flex-row pt-4">
+          <div class="text-purple-800 text-base self-center pr-10">Mar 31 2022</div>
+          <button class="border-purple-800 border-2 p-2 rounded-lg mr-0">Guest post</button>
+        </div>
+        <div class="text-purple-800 text-xl self-center font-bold">Interview with Andreas Schemm, Head of Ecosystem Development & Operations at HUMAN Protocol</div>
       </div>
     </div>
 
     <!-- Section: Social media -->
     <div class="flex flex-col">
-      <div class="flex self-center w-4/5">
-        <div class="flex flex-col w-6/12">
+      <div class="flex flex-col w-full md:flex-row self-center md:w-11/12">
+        <div class="flex flex-col md:w-6/12">
           <div class="w-5/6 text-purple-800 font-bold text-2xl pb-2">Get HUMAN news and updates</div>
           <div class="w-full">
             <input type="text" class="border-purple-800 border-2 rounded-md w-4/6 p-1" />
@@ -114,7 +124,7 @@
           <div class="text-purple-800">By subscribing you agree to our Privacy Policy</div>
         </div>
         <div class="w-3/12"></div>
-        <div class="w-5/12 self-center">
+        <div class="md:w-5/12 self-center">
           <i class="fas fa-dove text-purple-800 m-3 fa-2x"></i>
           <i class="fab fa-twitter text-purple-800 m-3 fa-2x"></i>
           <i class="fab fa-github-square text-purple-800 m-3 fa-2x"></i>
@@ -125,21 +135,21 @@
     </div>
     <!-- Section: Social media -->
     <!-- Section: Links  -->
-    <div class="flex pl-24">
-      <div class="w-1/6">
+    <div class="flex flex-col md:flex-row">
+      <div class="md:w-1/6 pb-5">
         <h6 class="text-uppercase fw-bold mb-4">Products</h6>
         <div class="text-reset">HUMAN App</div>
         <div class="text-reset">Proof of HUMANity</div>
         <div class="text-reset">IMOO</div>
       </div>
-      <div class="w-1/6">
+      <div class="md:w-1/6 pb-5">
         <h6 class="text-uppercase fw-bold mb-4">Discover</h6>
         <div class="text-reset">Token</div>
         <div class="text-reset">Routing Layer</div>
         <div class="text-reset">Team</div>
         <div class="text-reset">Careers</div>
       </div>
-      <div class="w-1/6">
+      <div class="md:w-1/6 pb-5">
         <h6 class="text-uppercase fw-bold mb-4">Build</h6>
         <div class="text-reset">Developers</div>
         <div class="text-reset">Technology</div>
@@ -148,13 +158,13 @@
         <div class="text-reset">Github</div>
         <div class="text-reset">Grants Program</div>
       </div>
-      <div class="w-1/6">
+      <div class="md:w-1/6 pb-5">
         <h6 class="text-uppercase fw-bold mb-4">Community</h6>
         <div class="text-reset">Grants Program</div>
         <div class="text-reset">Elite Ops Program</div>
         <div class="text-reset">Events</div>
       </div>
-      <div class="w-1/6">
+      <div class="md:w-1/6 pb-5">
         <h6 class="text-uppercase fw-bold mb-4">Resources</h6>
         <div class="text-reset">Documents Hub</div>
         <div class="text-reset">Litepaper</div>
@@ -165,7 +175,7 @@
         <div class="text-reset">One Pagers Archive</div>
         <div class="text-reset">Brand Assets</div>
       </div>
-      <div class="w-1/6">
+      <div class="md:w-1/6 pb-5">
         <h6 class="text-uppercase fw-bold mb-4">Impact Projects</h6>
         <div class="text-reset">Blog</div>
         <div class="text-reset">Explorer</div>
